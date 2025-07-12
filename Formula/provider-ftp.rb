@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.17.0 at 2025-07-12T08:05:41.041575+02:00
+# Generated with JReleaser 1.17.0 at 2025-07-12T08:30:03.029988+02:00
 
 class ProviderFtp < Formula
   desc "Wanaku MCP Router"
