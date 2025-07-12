@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.17.0 at 2025-07-12T08:05:41.041575+02:00
+# Generated with JReleaser 1.17.0 at 2025-07-12T08:30:03.029988+02:00
 
 class CliNative < Formula
   desc "Wanaku MCP Router"
@@ -8,7 +8,6 @@ class CliNative < Formula
   sha256 "6476cfe3380410f99d01fd31fe418c77f0071c2c6ecd32612a630ac45181af3b"
   license "Apache-2.0"
 
-  depends_on "openjdk@21"
 
   def install
     libexec.install Dir["*"]
