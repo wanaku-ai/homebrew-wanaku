@@ -1,11 +1,11 @@
-# Generated with JReleaser 1.17.0 at 2025-07-12T08:30:03.029988+02:00
+# Generated with JReleaser 1.17.0 at 2025-07-17T11:23:41.57021+02:00
 
 class Cli < Formula
   desc "Wanaku MCP Router"
   homepage "https://wanaku.ai"
-  url "https://github.com/wanaku-ai/wanaku/releases/download/v0.0.6/cli-0.0.6.zip"
-  version "0.0.6"
-  sha256 "384789e8d8820834ed2891c4938cdbdee6002cf8feb388fa2c0caa015867f1dc"
+  url "https://github.com/wanaku-ai/wanaku/releases/download/v0.0.7/cli-0.0.7.zip"
+  version "0.0.7"
+  sha256 "b70e6673a6449992cd4b2c26940e4d0b9b73e418ccca3ef07734aec183b78d0d"
   license "Apache-2.0"
 
   depends_on "openjdk@21"
@@ -17,6 +17,6 @@ class Cli < Formula
 
   test do
     output = shell_output("#{bin}/cli --version")
-    assert_match "0.0.6", output
+    assert_match "0.0.7", output
   end
 end
